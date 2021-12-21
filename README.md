@@ -1,6 +1,6 @@
 # Minimal Dockerfiles for Binder
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binder-examples/minimal-dockerfile/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/avxxx/minimal-dockerfile/HEAD?labpath=index.ipynb)
 
 [Binder](https://mybinder.org) needs only one thing for images to work:
 
@@ -30,8 +30,7 @@ RUN pip install --no-cache notebook jupyterlab
 ENV HOME=/tmp
 ```
 
-which you can try out: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/binder-examples/minimal-dockerfile/truly-minimal)
-
+which you can try out: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/avxxx/minimal-dockerfile/HEAD?labpath=index.ipynb)
 However, it would be better to consume the NB_UID/NB_USER arguments and create a real user:
 
 ```docker
